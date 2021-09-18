@@ -1,3 +1,8 @@
+# IDE
+.idea/
+# MAVEN Cache
+.mvn/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
