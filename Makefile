@@ -1,4 +1,4 @@
-DOCKER_TAG=jiunjiunma/liveproject-tracing:v1.1
+DOCKER_TAG=jiunjiunma/liveproject-tracing:v1.2
 IMAGE := $(shell docker image ls | grep 'jiunjiunma/liveproject-tracing' | awk '{ print $$3 }') 
 
 image: package
